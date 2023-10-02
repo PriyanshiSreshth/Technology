@@ -1,0 +1,122 @@
+*{
+    font-family: 'Times New Roman';
+}
+#box {
+    background-color: blue;
+    color: yellow;
+    display: inline-block;
+}
+.heading {
+    color: green;
+    width: 150px;
+    border-style: dotted;
+    border-color: blue;
+    background-color: aqua;
+}
+.second{
+    color: green;
+    border: 5px solid purple;
+}
+#test2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: magenta;
+}
+#outer{
+    font-size: 25px;
+    height:100px;
+    width: 250px;
+    background-color: yellow;
+    border-width: 5px;
+    border-color: red;
+    border-style: solid;
+    padding:10px;
+    border-radius: 25px;
+}
+#inner{font-size: 10px;}
+
+.circle{
+    text-align: center;
+    border: 5px solid red;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    margin-top: 5px;
+}
+
+#practice{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border: 5px solid red;
+    border-radius: 50%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+#navbar {
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+button {
+    background-color: #f08804;
+}
+#logo {
+    color: #f08804;
+}
+a {
+    margin-right: 200px;
+    text-decoration: none;
+}
+.contentbox {
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    display: inline-block;
+    margin: 5px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#content{
+    height: 550px;
+}
+body{
+    text-align: center;
+}
+div{
+    height: 100px;width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: rgba(0, 150, 100, 0.75);
+}
+#box3{
+    background-color: yellow;
+}
+#box4{
+    background-color: palevioletred;
+}
+#box5{
+    background-color: azure;
+}

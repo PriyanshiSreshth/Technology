@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>A new beginning..</title>
+    <style>
+        *{
+            font-family: 'Lucida Console';
+        }
+        #inner{
+            width:20%;;
+            background-color: rgba(0, 150, 50, 0.45);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        Name <br />
+        <input type="text" placeholder="Enter your name" />
+        <br /> <br />
+        Email <br />
+        <input type="text" placeholder="Enter your email" />
+        <br /> <br />
+        Age <br />
+        <input type="text" placeholder="Enter your age" />
+        <br /> <br />
+        Which option best describes you? <br />
+        <select name="option">
+            <option value="Student"> Student </option>
+            <option value="Employee"> Employee </option>
+            <opiton value="Service"> Government Servant </opiton>
+            <option value="businessman"> Businessman </option>
+            <option value="agency"> Agent </option>
+        </select>
+        <br /> <br />
+        Would you recommend GeeksForGeeks to any of your friend? <br />
+        <label for="yes">
+            <input type="radio" value="yes" name="choice"> Yes
+        </label> <br />
+        <label for="no"> 
+            <input type="radio" value="no" name="choice" /> No
+        </label><br />
+        <label for="maybe">
+            <input type="radio" value="maybe" name="choice" /> Maybe
+        </label>
+        <br /> <br />
+        Languages and Frameworks known <div id="small"> (Check all that apply) </div><br />
+        <!-- div id small is gonna be an inline block subscript element-->
+
+        <label for="c">
+            <input type="checkbox" value="c" /> C <br />
+            <input type="checkbox" value="c++" /> C++ <br />
+            <input type="checkbox" value="C#" /> C# <br />
+            <input type="checkbox" value="java" /> Java <br />
+            <input type="checkbox" value="python" /> Python <br />
+            <input type="checkbox" value="javascript" /> JavaScript <br />
+            <input type="checkbox" value="react" /> React <br />
+            <input type="checkbox" value="angular" /> Angular <br />
+            <input type="checkbox" value="django" /> Django <br />
+            <input type="checkbox" value="spring" /> Spring 
+        </label>
+        <br /> <br />
+        Any comments or suggestions <br />
+        <textarea inputmode="text" placeholder="Feel free to share" rows="4" cols="100"> </textarea> <br /> <br />
+        <div id="inner"> <input type="submit" value="Submit" /></div>
+    </div>
+</body>
+</html>

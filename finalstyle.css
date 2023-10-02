@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Lato, Helvetica, sans-serif;
+}
+.navbar{
+    background: #1D2D5E;
+    display: flex;
+    flex-direction: row;
+}
+.navbar .motto img{
+    margin-left: 80px;
+}
+.navbar .bars{
+    position: relative;
+    margin-left: 800px;
+    color: #FDFDFD;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}
+.home{
+    margin-right: 40px;
+}
+.aboutus {
+    margin-right: 40px;
+}
+.admissions {
+    margin-right: 40px;
+}
+.academics {
+    margin-right: 40px;
+}
+.results {
+    margin-right: 40px;
+}
+.contactus {
+    margin-right: 40px;
+    font-weight: 600;
+    padding-bottom: 6px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    width: fit-content;
+}
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #1D2D5E;
+    height: 513px;
+    width: 532px;
+    margin-top: 40px;
+    font-weight: 550;
+}
+.principal img{
+    width: 532px;
+    height: 457px;
+    margin-top: 0;
+}
+.principal span{
+    color: #FDFDFD;
+    font-size: 20px;
+}
+.column {
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+    line-height: 1.6;
+    font-weight: 550;
+}
+.row1{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+}
+.row1 span{
+    font-size: 32px;
+    margin-right: 40px;
+}
+.row1 h2{
+    font-size: 32px;
+}
+.row1 .address .content1{
+    margin-left: 220px;
+    margin-top: 22px;
+    font-size: 16px;
+    font-weight: 100;
+} 
+.row1 .contact .content2{
+    margin-left: 240px;
+    margin-top: 22px;
+    font-size: 16px;
+    font-weight: 100;
+}
+.row1 .contact .content2 .mobile1{
+    margin-left:56px;
+}
+.row1 .operation .content3{
+    margin-left: 240px;
+    margin-top: 22px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+
+.detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.detail .address{
+    margin-right: 240px;
+}
+.detail .contact{
+    margin-right: 240px;
+}
+.detail .operation{
+    margin-right: 240px;
+}
+.detail .address span{
+    font-size: 32px;
+    margin-right: 40px;
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+.detail .address .ad1{
+    display: flex;
+    float: right;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.ad1 h2{
+    font-weight: 500;
+    font-size: 32px;
+}
